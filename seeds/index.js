@@ -8,7 +8,7 @@ const description = ["Luxurious stay with breathtaking views", "Cozy atmosphere 
 const price = [3000, 5000, 10000, 4000, 7000, 15000, 5000, 13000, 9000, 15000]
 
 mongoose
-    .connect('mongodb://127.0.0.1:27017/hotel')
+    .connect('mongodb+srv://shadergaming1:vBLgIYyAqNftmDC7@cluster0.cle6f6u.mongodb.net/hotel')
     .then(()=>console.log("Database Connected!"))
     .catch(err=>console.log(err))
 
